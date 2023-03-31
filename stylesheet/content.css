@@ -1,0 +1,726 @@
+.menu1 {
+  margin: 0 auto;
+  width: 161vh;
+  height: 94vh;
+  opacity: 30%;
+  background-image: url('../images/menu.png');
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  position: absolute;
+}
+
+html{
+  cursor: url('../images/cursor_1.svg'),auto;
+}
+
+.content{
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  height: 100vh;
+  width: 133vh;
+  overflow: hidden;
+}
+
+.content1 {
+  display: block;
+  height: 100vh;
+  width: 133vh;
+  position: absolute;
+}
+
+.romb {
+  width: 40.5vh;
+  height: 20vh;
+  left: 4vh;
+  top: 37vh;
+  background-image: url('../images/romb.svg');
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+}
+
+.zagolovok {
+  width: 91vh;
+  height: 19vh;
+  left: 3vh;
+  top: 2vh;
+  background-image: url('../images/zagolovok.svg');
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+}
+
+.paper {
+  width: 13vh;
+  height: 10vh;
+  left: 10vh;
+  top: 79vh;
+  z-index: 1;
+  background-image: url('../images/paper.svg');
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  cursor: url("../images/cursor_2.svg"), pointer;
+}
+
+.polygon {
+  width: 40.5vh;
+  height: 20vh;
+  left: 34vh;
+  top: 58vh;
+  background-image: url('../images/polygon.svg');
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+}
+
+.circle {
+  width: 38.5vh;
+  height: 17vh;
+  left: 61vh;
+  top: 39vh;
+  background-image: url('../images/circle.svg');
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+}
+
+.star {
+  width: 43.5vh;
+    height: 25vh;
+    left: 92vh;
+    top: 56vh;
+  background-image: url('../images/star.svg');
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+}
+
+.voskl {
+  width: 10vh;
+  height: 9vh;
+  left: 116vh;
+  top: 5vh;
+  background-image: url('../images/voskl.svg');
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  cursor: url("../images/cursor_2.svg"), pointer;
+}
+
+.brosok {
+  width: 110vh;
+  height: 9.2vh;
+  left: 26vh;
+  top: 87vh;
+  background-image: url('../images/brosok.svg');
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+}
+
+.content2{
+  height: 100vh;
+  width: 133vh;
+  background-color: #FFC759;
+  display: none;
+}
+
+.back{
+  position: absolute;
+  z-index: -1;
+  height: 100%;
+  width: 100vw;
+  background-color: #5687FF;
+}
+
+.text1 {
+  width: 110vh;
+  height:3vh;
+  left: 2vh;
+  top: 5vh;
+  background-image: url('../images/text1.svg');
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+}
+
+.knopka {
+  width: 6vh;
+  height:3vh;
+  left: 2vh;
+  top: 94vh;
+  z-index: 3;
+  background-image: url('../images/knopka.svg');
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  cursor: url("../images/cursor_2.svg"), pointer;
+}
+
+.part1 {
+  width: 100vh;
+  height: 45vh;
+  left:-3vh;
+  top: 28vh;
+  background-image: url('../images/part1.svg');
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+}
+.part2 {
+  width: 170vh;
+  height: 45vh;
+  left: 77vh;
+  top: 28vh;
+  background-image: url('../images/part2.svg');
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  cursor: url("../images/cursor_2.svg"), pointer;
+}
+
+.strelka {
+  width: 10vh;
+  height: 3vh;
+  left: 63vh;
+  top: 50vh;
+  background-image: url('../images/strelka.svg');
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+}
+
+.good {
+  width: 40vh;
+  height: 4vh;
+  left: 2vh;
+  top: 5vh;
+  background-image: url('../images/good.svg');
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+}
+
+.super {
+  width: 22vh;
+  height: 10vh;
+  left: 65vh;
+  top: 45vh;
+  background-image: url('../images/super.svg');
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+}
+
+
+
+.fin{
+  height: 100vh;
+  width: 133vh;
+  background-color: #5687FF;
+  display: none;
+}
+
+.content3{
+  height: 100vh;
+  width: 133vh;
+  background-color: #79E759;
+  display: none;
+}
+
+.content4{
+  height: 100vh;
+  width: 133vh;
+  background-color: #ffffff;
+  display: none;
+}
+
+.content5{
+  height: 100vh;
+  width: 133vh;
+  background-color: #B087F3;
+  display: none;
+}
+
+.info{
+  height: 100vh;
+  width: 133vh;
+  background-color: #5687FF;
+  display: none;
+}
+
+.text2{
+  width: 85vh;
+  height: 30vh;
+  left: 20vh;
+  top: 40vh;
+  background-image: url('../images/text2.svg');
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+}
+
+.text3{
+  width: 48vh;
+  height: 6vh;
+  left: 89vh;
+  top: 91vh;
+  background-image: url('../images/text3.svg');
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+}
+
+.red{
+  height: 100vh;
+  width: 133vh;
+  background-image: url('../images/red.svg');
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+}
+
+.text4{
+  width: 110vh;
+  height:4vh;
+  left: 2vh;
+  top: 5vh;
+  z-index: 1;
+  background-image: url('../images/text4.svg');
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+}
+
+
+.figure1{
+  width: 60vh;
+  height: 40vh;
+  left: 2vh;
+  top: 25vh;
+  background-image: url('../images/figure1.svg');
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  cursor: url("../images/cursor_2.svg"), pointer;
+  transform: rotate(0deg);
+}
+
+@keyframes povorot {
+   0% {
+       transform: rotate(60deg);
+   }
+
+   100% {
+       transform: rotate(360deg);
+   }
+}
+
+.povorot{
+  animation-duration: 2s;
+  animation-play-state: paused;
+  animation-name: povorot;
+}
+
+.figure2{
+  width: 85vh;
+  height: 61.4vh;
+  left: 59.1vh;
+  top: 2.2vh;
+  background-image: url('../images/figure2.svg');
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  cursor: url("../images/cursor_2.svg"), pointer;
+  transform: rotate(0deg);
+}
+
+@keyframes povorot1 {
+   0% {
+       transform: rotate(60deg);
+   }
+
+   100% {
+       transform: rotate(360deg);
+   }
+}
+
+.povorot1{
+  animation-duration: 2s;
+  animation-play-state: paused;
+  animation-name: povorot;
+}
+
+.figure3{
+  width: 85vh;
+  height: 53.5vh;
+  left: 81.5vh;
+  top: 47vh;
+  background-image: url('../images/figure3.svg');
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  cursor: url("../images/cursor_2.svg"), pointer;
+  transform: rotate(0deg);
+}
+
+@keyframes povorot2 {
+   0% {
+       transform: rotate(60deg);
+   }
+
+   100% {
+       transform: rotate(360deg);
+   }
+}
+
+.povorot2{
+  animation-duration: 2s;
+  animation-play-state: paused;
+  animation-name: povorot;
+}
+
+.text5{
+  width: 110vh;
+  height:4vh;
+  left: 2vh;
+  top: 5vh;
+  z-index: 1;
+  background-image: url('../images/text5.svg');
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+}
+
+
+.kvadrat01{
+  width: 20vh;
+  height: 16vh;
+  left: 15vh;
+  top: 34vh;
+  background-image: url('../images/kvadrat1.svg');
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  cursor: url("../images/cursor_2.svg"), pointer;
+  }
+
+.kvadrat02{
+  width: 20vh;
+  height: 16vh;
+  left: 101vh;
+  top: 49vh;
+  background-image: url('../images/kvadrat1.svg');
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  cursor: url("../images/cursor_2.svg"), pointer;
+}
+
+.kvadrat03{
+  width: 20vh;
+  height: 16vh;
+  left: 56vh;
+  top: 57vh;
+  background-image: url('../images/kvadrat1.svg');
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  cursor: url("../images/cursor_2.svg"), pointer;
+}
+
+.kvadrat01_empty{
+  width: 20vh;
+  height: 16vh;
+  left: 15vh;
+  top: 34vh;
+  background-image: url('../images/kvadrat2.svg');
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  cursor: url("../images/cursor_2.svg"), pointer;
+  opacity: 0;
+
+}
+
+.kvadrat02_empty{
+  width: 20vh;
+  height: 16vh;
+  left: 101vh;
+  top: 49vh;
+  background-image: url('../images/kvadrat2.svg');
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  cursor: url("../images/cursor_2.svg"), pointer;
+  opacity: 0;
+}
+
+.kvadrat03_empty{
+  width: 20vh;
+  height: 16vh;
+  left: 56vh;
+  top: 57vh;
+  background-image: url('../images/kvadrat2.svg');
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  cursor: url("../images/cursor_2.svg"), pointer;
+  opacity: 0;
+}
+
+@keyframes bip {
+  0% { opacity: 0% }
+  100% { opacity: 100% }
+}
+
+.bip1{
+  animation-play-state: paused;
+  animation-duration: 0.5s;
+  animation-name: bip;
+}
+
+.bip2{
+  animation-play-state: paused;
+  animation-duration: 0.5s;
+  animation-name: bip;
+}
+
+.bip3{
+  animation-play-state: paused;
+  animation-duration: 0.5s;
+  animation-name: bip;
+}
+
+.crug01{
+  width: 20vh;
+  height: 17vh;
+  left: 98vh;
+  top: 14vh;
+  background-image: url('../images/crug1.svg');
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  cursor: url("../images/cursor_2.svg"), pointer;
+}
+
+.crug02{
+  width: 20vh;
+  height: 17vh;
+  left: 31vh;
+  top: 56vh;
+  background-image: url('../images/crug1.svg');
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  cursor: url("../images/cursor_2.svg"), pointer;
+}
+
+.crug03{
+  width: 20vh;
+  height: 17vh;
+  left: 64vh;
+  top: 33vh;
+  background-image: url('../images/crug1.svg');
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  cursor: url("../images/cursor_2.svg"), pointer;
+}
+
+.crug01_empty{
+  width: 20vh;
+  height: 17vh;
+  left: 98vh;
+  top: 14vh;
+  background-image: url('../images/crug2.svg');
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  cursor: url("../images/cursor_2.svg"), pointer;
+  opacity: 0;
+}
+
+.crug02_empty{
+  width: 20vh;
+  height: 17vh;
+  left: 31vh;
+  top: 56vh;
+  background-image: url('../images/crug2.svg');
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  cursor: url("../images/cursor_2.svg"), pointer;
+  opacity: 0;
+}
+
+.crug03_empty{
+  width: 20vh;
+  height: 17vh;
+  left: 64vh;
+  top: 33vh;
+  background-image: url('../images/crug2.svg');
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  cursor: url("../images/cursor_2.svg"), pointer;
+  opacity: 0;
+}
+
+@keyframes bop {
+  0% { opacity: 0% }
+  100% { opacity: 100% }
+}
+
+.bop1{
+  animation-play-state: paused;
+  animation-duration: 0.5s;
+  animation-name: bop;
+}
+
+.bop2{
+  animation-play-state: paused;
+  animation-duration: 0.5s;
+  animation-name: bop;
+}
+
+.bop3{
+  animation-play-state: paused;
+  animation-duration: 0.5s;
+  animation-name: bop;
+}
+
+.treugolnuk01{
+  width: 20vh;
+  height: 16vh;
+  left: 73vh;
+  top: 71vh;
+  background-image: url('../images/treugolnuk1.svg');
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  cursor: url("../images/cursor_2.svg"), pointer;
+}
+
+.treugolnuk02{
+  width: 20vh;
+  height: 16vh;
+  left: 41vh;
+  top: 13vh;
+  background-image: url('../images/treugolnuk1.svg');
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  cursor: url("../images/cursor_2.svg"), pointer;
+}
+
+.treugolnuk03{
+  width: 20vh;
+  height: 16vh;
+  left: 10vh;
+  top: 73vh;
+  background-image: url('../images/treugolnuk1.svg');
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  cursor: url("../images/cursor_2.svg"), pointer;
+}
+
+.treugolnuk01_empty{
+  width: 20vh;
+  height: 16vh;
+  left: 73vh;
+  top: 71vh;
+  background-image: url('../images/treugolnuk2.svg');
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  cursor: url("../images/cursor_2.svg"), pointer;
+  opacity: 0;
+}
+
+.treugolnuk02_empty{
+  width: 20vh;
+  height: 16vh;
+  left: 41vh;
+  top: 13vh;
+  background-image: url('../images/treugolnuk2.svg');
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  cursor: url("../images/cursor_2.svg"), pointer;
+  opacity: 0;
+}
+
+.treugolnuk03_empty{
+  width: 20vh;
+  height: 16vh;
+  left: 10vh;
+  top: 73vh;
+  background-image: url('../images/treugolnuk2.svg');
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  cursor: url("../images/cursor_2.svg"), pointer;
+  opacity: 0;
+}
+
+@keyframes bup {
+  0% { opacity: 0% }
+  100% { opacity: 100% }
+}
+
+.bup1{
+  animation-play-state: paused;
+  animation-duration: 0.5s;
+  animation-name: bup;
+}
+
+.bup2{
+  animation-play-state: paused;
+  animation-duration: 0.5s;
+  animation-name: bup;
+}
+
+.bup3{
+  animation-play-state: paused;
+  animation-duration: 0.5s;
+  animation-name: bup;
+}
+
+.proverka{
+  width: 12vh;
+  height: 9vh;
+  left: 120vh;
+  top: 88vh;
+  background-image: url('../images/proverka.svg');
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  cursor: url("../images/cursor_2.svg"), pointer;
+}
+
+.text6{
+  width: 10vh;
+  height: 3vh;
+  left: 2vh;
+  top: 5vh;
+  z-index: 1;
+  background-image: url('../images/text6.svg');
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+}
+
+.koshka{
+  width: 80vh;
+  height: 67vh;
+  left: 37vh;
+  top: 18vh;
+  background-image: url('../images/koshka.svg');
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+}
